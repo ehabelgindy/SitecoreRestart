@@ -1,0 +1,13 @@
+﻿<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <RestartControl>
+    <FormDialog Icon="Core2/32x32/lightning_bolt_h.png" Header="Restart Sitecore" Text="Use this tool to restart Sitecore" OKButton="Restart" CancelButton="Cancel">
+      <CodeBeside Type="SitecoreClientAddons.Restart.RestartControl,SitecoreClientAddons.Restart"/>
+      <Border Padding="0 0 0 0">
+        <Checkbox ID="Restart" Header="Restart the Sitecore client." />
+      </Border>
+      <Border>
+        <Checkbox ID="RestartServer" Header="Restart the Sitecore server." />
+      </Border>
+    </FormDialog>
+  </RestartControl>
+</control>
